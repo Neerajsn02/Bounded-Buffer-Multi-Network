@@ -1,0 +1,35 @@
+.TH client 1 2022-25-11 GNU
+
+.SH NAME
+.B \./client \- TCP Client
+
+.SH SYNOPSIS
+.B \./client 
+[\fB\-port\fR ]
+[\fB\-ip\fR ]
+[\fB\-file\fR ]
+
+.SH DESCRIPTION
+.B \./client
+This command creates a TCP socket and establishes a connection with a TCP server. The arguments specify the port and IP address of the server
+
+.SH OPTIONS
+.TP
+.BR \-port
+Specifies the Port number to which the client will connect and on which the server is running
+.TP
+.BR \-ip
+Specifies the IP Address on which the server is running
+.TP
+.BR \-file
+Specifies the file from which the program reads input
+
+.SH AUTHOR
+Name: Neeraj Suresh Narayanan
+CCID: nnarayan
+
+.SH EXAMPLE
+.B \./client 5969 127.0.0.1 <input.txt
+
+.SH NOTES
+Please note that the program needs all 3 command line options to run without any errors

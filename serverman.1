@@ -1,0 +1,31 @@
+.TH server 1 2022-25-11 GNU
+
+.SH NAME
+.B \./server \- TCP Server
+
+.SH SYNOPSIS
+.B \./server
+[\fB\-port\fR ]
+
+.SH DESCRIPTION
+.B \./server
+This command creates a TCP server and establishes a connection with multiple TCP clients. The arguments specify the port on which the server is running, which is also the port to which the client will connect
+
+.SH OPTIONS
+.TP
+.BR \-port
+Specifies the Port number on which the server is running and the client will connect
+
+
+.SH AUTHOR
+Name: Neeraj Suresh Narayanan
+CCID: nnarayan
+
+.SH EXAMPLE
+.B \./server 5969
+
+.SH NOTES
+Please note that the program needs the command line option to run without any errors
+
+.SH SEE ALSO
+https://www.ibm.com/docs/en/i/7.2?topic=designs-using-poll-instead-select
